@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.apptest"
+    namespace = "com.example.TiraDados"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.apptest"
+        applicationId = "com.example.TiraDados"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

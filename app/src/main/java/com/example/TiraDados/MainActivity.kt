@@ -36,14 +36,14 @@ class MainActivity : AppCompatActivity() {
                 override fun onTick(millisUntilFinished: Long) {
                     var n = roll()
                     imagen.setImageResource(images[n])
-                    resultTextView.text = (n++).toString()
+                    resultTextView.text = ((n+1).toString())
 
                 }
 
                 override fun onFinish() {
                     var n = roll()
                     imagen.setImageResource(images[n])
-                    resultTextView.text = (n++).toString()
+                    resultTextView.text = (n+1).toString()
 
                 }
 
